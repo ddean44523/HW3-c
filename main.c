@@ -13,13 +13,13 @@ int digit_sum(int n) {
 }
 int main(void) {
   char *userIn;
-  userIn = readline("Enter an int: \n");
+  userIn = readline("Enter an int: ");
   double digSum;
   digSum = atof(userIn);
   int digSumInt;
   digSumInt = (int) digSum;
   int answer;
   answer = digit_sum(digSumInt);
-  printf("sum of digits of %d is %d.", digSumInt, answer);
+  printf("sum of digits of %d is %d.\n", digSumInt, answer);
   return 0; 
 }
