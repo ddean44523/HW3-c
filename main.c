@@ -20,6 +20,6 @@ int main(void) {
   digSumInt = (int) digSum;
   int answer;
   answer = digit_sum(digSumInt);
-  printf("sum of digits %d is %d.", digSumInt, answer);
+  printf("sum of digits of %d is %d.", digSumInt, answer);
   return 0;
 }
