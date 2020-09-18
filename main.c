@@ -21,5 +21,5 @@ int main(void) {
   int answer;
   answer = digit_sum(digSumInt);
   printf("sum of digits of %d is %d.", digSumInt, answer);
-  return 0;
+  return 0; 
 }
