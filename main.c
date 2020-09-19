@@ -14,12 +14,10 @@ int digit_sum(int n) {
 int main(void) {
   char *userIn;
   userIn = readline("Enter an int: ");
-  double digSum;
-  digSum = atof(userIn);
-  int digSumInt;
-  digSumInt = (int) digSum;
+  int digSum;
+  digSum = atoi(userIn);
   int answer;
-  answer = digit_sum(digSumInt);
-  printf("sum of digits of %d is %d.\n", digSumInt, answer);
+  answer = digit_sum(digSum);
+  printf("sum of digits of %d is %d.\n", digSum, answer);
   return 0; 
 }
